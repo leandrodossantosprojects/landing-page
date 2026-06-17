@@ -1,68 +1,91 @@
+* {
+  border: 2px solid #ff1111;
+}
+
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    background-color: #1f2937;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 10px;
-    flex-grow: 1;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  flex-grow: 1;
 }
 .hero {
-    background-color: #1f2937;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
-    flex-grow: 1;
+  background-color: #1f2937;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+.lenguajes {
 }
 
 nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    flex-grow: 1;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-grow: 1;
 }
 
 .titulo-seccion {
-    align-self: center;
-    text-align: center;
+  align-self: center;
+  text-align: center;
 }
 
 .tarjetas-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  gap: 20px;
+  height: auto;
 }
 
-.tarjetas {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-shrink: 1;
-    flex-basis: 120px;
+.tarjeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882f6;
 }
 
 .tarjeta img {
-    width: 100px;
-    height: auto;
-    border-radius: 2px;
-    border-color: #3882f6;
+  width: 100px;
+  height: auto;
 }
 
 .tarjetas p {
-    text-align: center;
+  text-align: center;
+  max-width: 150px;
+  flex: 1 1 auto;
+}
+
+button {
+  background-color: #3882f6;
+  color: #ffffff;
+  width: 100px;
+  border-radius: 3px;
+  text-align: center;
 }

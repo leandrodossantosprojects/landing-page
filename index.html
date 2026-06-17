@@ -1,84 +1,88 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Landing Page</title>
-        <link rel="stylesheet" href="./style.css" />
-    </head>
-    <body>
-        <header>
-            <div class="header-logo">
-                <img src="logo.png" alt="Logo" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Titulo del sitio</h1>
+        <p>parrafo debajo del titulo</p>
+        <button class="login">Sign up</button>
+      </div>
+      <img src="img/imagendelsitio.png" alt="imagen del sitio" />
+    </div>
+    <main>
+      <section class="lenguajes">
+        <h2 class="titulo-seccion">titulo de seccion</h2>
+        <div class="tarjetas-container">
+          <div class="tarjeta">
+            <div class="img-container">
+              <img src="./media/javascript-logo.png" alt="Logo de Javascript" />
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="hero">
-            <div class="hero-text">
-                <h1>Titulo del sitio</h1>
-                <p>parrafo debajo del titulo</p>
+            <p>
+              Javascript: Es el lenguaje que le da la interactrividad a las
+              páginas web
+            </p>
+          </div>
+
+          <div class="tarjeta">
+            <div class="img-container">
+              <img src="./media/html-5-logo.png" alt="Logo de HTML" />
             </div>
-            <button class="login"></button>
-            <img src="img/imagendelsitio.png" alt="imagen del sitio" />
+            <p>
+              HTML: Es el lenguaje de marcado que define la estructura de las
+              páginas web
+            </p>
+          </div>
+          <div class="tarjeta">
+            <div class="img-container">
+              <img src="./media/css-3-logo.png" alt="Logo de CSS" />
+            </div>
+            <p>
+              CSS: Es el lenguaje de estilos que define el diseño y la
+              apariencia de las páginas web
+            </p>
+          </div>
+          <div class="tarjeta">
+            <div class="img-container">
+              <img src="./media/sql-logo.png" alt="Logo de SQL" />
+            </div>
+            <p>
+              SQL: Es el lenguaje de consultas que se utiliza para interactuar
+              con la base de datos
+            </p>
+          </div>
         </div>
-        <main>
-            <section>
-                <h2 class="titulo-seccion">titulo de seccion</h2>
-                <div class="tarjetas-container">
-                    <div class="tarjeta">
-                        <img
-                            src="./media/javascript-logo.png"
-                            alt="Logo de Javascript"
-                        />
-                        <p>
-                            Javascript: Es el lenguaje que le da la
-                            interactrividad a las páginas web
-                        </p>
-                    </div>
 
-                    <div class="tarjeta">
-                        <img src="./media/html-5-logo.png" alt="Logo de HTML" />
-                        <p>
-                            HTML: Es el lenguaje de marcado que define la
-                            estructura de las páginas web
-                        </p>
-                    </div>
+        <div class="quote">
+          <p>""</p>
+          <p class="writer"></p>
+        </div>
 
-                    <div class="tarjeta">
-                        <img src="./media/css-3-logo.png" alt="Logo de CSS" />
-                        <p>
-                            CSS: Es el lenguaje de estilos que define el diseño
-                            y la apariencia de las páginas web
-                        </p>
-                    </div>
-                    <div class="tarjeta">
-                        <img src="./media/sql-logo.png" alt="Logo de SQL" />
-                        <p>
-                            SQL: Es el lenguaje de consultas que se utiliza para
-                            interactuar con la base de datos
-                        </p>
-                    </div>
-                </div>
-
-                <div class="quote">
-                    <p>""</p>
-                    <p class="writer"></p>
-                </div>
-
-                <div class="accion">
-                    <div class="tarjeta-accion">
-                        <h3>titulo tarjeta</h3>
-                        <p>parrafo tarjeta</p>
-                        <button>boton</button>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </body>
+        <div class="accion">
+          <div class="tarjeta-accion">
+            <h3>titulo tarjeta</h3>
+            <p>parrafo tarjeta</p>
+            <button>Sign up</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
