@@ -21,24 +21,30 @@ header {
   color: white;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
   flex-grow: 1;
 }
 
-.lenguajes {
+.hero-text {
+  flex-grow: 0;
+  gap: 3px;
 }
 
+.hero-text p {
+  width: 300px;
+  text-align: left;
+}
 nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   gap: 15px;
-  flex-grow: 1;
 }
 
 .titulo-seccion {
