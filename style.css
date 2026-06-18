@@ -1,7 +1,3 @@
-* {
-  border: 2px solid #ff1111;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -15,6 +11,12 @@ header {
   padding: 0;
   flex-grow: 1;
 }
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .hero {
   background-color: #1f2937;
   display: flex;
@@ -25,14 +27,41 @@ header {
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
   flex-grow: 0;
-  gap: 3px;
+  flex: 0 0 auto;
+  padding: 10px;
+  width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  flex-wrap: 1;
+  flex-grow: 0;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 5px;
 }
 
 .hero-text p {
   width: 300px;
   text-align: left;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 5px;
 }
+
+.hero button {
+  align-self: center;
+}
+
+.hero img {
+  height: 280px;
+  width: auto;
+  margin: 10px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -45,9 +74,22 @@ nav ul {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+nav ul li a:visited {
+  color: #e5e7eb;
+}
+
+nav ul li a:hover {
+  color: #3882f6;
 }
 
 .titulo-seccion {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
   align-self: center;
   text-align: center;
 }
@@ -94,4 +136,72 @@ button {
   width: 100px;
   border-radius: 3px;
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote blockquote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote cite {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+  align-self: flex-end;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.accion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 30px;
+  height: 50px;
+  flex-grow: 0;
+}
+
+.tarjeta-accion h3 {
+  margin-bottom: 0px;
+}
+
+.tarjeta-accion p {
+  margin-top: 0px;
+}
+
+.accion button {
+  width: 150px;
+  flex-shrink: 0;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  height: 50px;
+  width: auto;
+  display: flex;
+  justify-content: center;
 }
