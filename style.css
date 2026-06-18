@@ -51,7 +51,7 @@ header {
   margin-top: 5px;
 }
 
-.hero button {
+.go-page {
   border: 2px solid #3882f6;
 }
 
@@ -184,7 +184,7 @@ button {
   margin-top: 0px;
 }
 
-.accion button {
+.go-page-2 {
   width: 150px;
   flex-shrink: 0;
   border: 2px solid #f9faf8;
